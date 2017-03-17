@@ -8,6 +8,7 @@ const Main = React.createClass({
         <h1>
           <Link to='/'>Practice</Link>
         </h1>
+        // react.clone returns a r element as starting point 
         {React.cloneElement(this.props.children, this.props)}
       </div>
     )
